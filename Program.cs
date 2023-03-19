@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using tpmodul5_1302213109;
+
+String Nama = Console.ReadLine();
+HaloGeneric hg = new HaloGeneric();
+hg.SapaUser(Nama);
+
+DataGeneric<String> dg = new DataGeneric<String>("1302210084");
+dg.PrintData();
